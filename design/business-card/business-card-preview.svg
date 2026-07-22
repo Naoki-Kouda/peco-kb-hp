@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+  <title id="title">株式会社Peco&amp;Kb 名刺デザインプレビュー</title>
+  <desc id="desc">表面と裏面を並べた名刺デザインのプレビュー</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="24" stdDeviation="25" flood-color="#07101f" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="frontBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07101f"/>
+      <stop offset="0.58" stop-color="#101a33"/>
+      <stop offset="1" stop-color="#143c73"/>
+    </linearGradient>
+    <radialGradient id="frontGlow" cx="0.82" cy="0.3" r="0.72">
+      <stop offset="0" stop-color="#ff6533" stop-opacity="0.24"/>
+      <stop offset="0.42" stop-color="#347df4" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#07101f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="backCorner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#143c73" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#143c73" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="previewPhotoClip">
+      <rect x="655" y="38" width="205" height="292" rx="12"/>
+    </clipPath>
+    <filter id="previewMonoPhoto" color-interpolation-filters="sRGB">
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1.08" intercept="-0.03"/>
+        <feFuncG type="linear" slope="1.08" intercept="-0.03"/>
+        <feFuncB type="linear" slope="1.08" intercept="-0.03"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1120" fill="#eef1f5"/>
+  <text x="190" y="90" fill="#647084" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">BUSINESS CARD CONCEPT 01</text>
+
+  <g transform="translate(0,-18) scale(0.61)" filter="url(#shadow)">
+    <rect x="190" y="145" width="1220" height="738" rx="18" fill="url(#frontBg)"/>
+    <rect x="190" y="145" width="1220" height="738" rx="18" fill="url(#frontGlow)"/>
+    <g transform="translate(190 145) scale(1.340659 1.341818)">
+      <g fill="none" stroke="#7ea8dc" stroke-opacity="0.15" stroke-width="1.5">
+        <path d="M536 88 635 145 719 82 818 158"/>
+        <path d="M514 210 617 171 711 235 832 194"/>
+        <path d="M559 322 649 262 750 316 849 270"/>
+        <path d="M613 430 682 351 789 405 870 344"/>
+        <path d="M635 145 617 171 649 262 559 322"/>
+        <path d="M719 82 711 235 750 316 682 351"/>
+        <path d="M818 158 832 194 849 270 789 405"/>
+      </g>
+      <g fill="#7ea8dc" fill-opacity="0.34">
+        <circle cx="536" cy="88" r="4"/><circle cx="635" cy="145" r="5"/><circle cx="719" cy="82" r="4"/>
+        <circle cx="818" cy="158" r="5"/><circle cx="514" cy="210" r="4"/><circle cx="617" cy="171" r="4"/>
+        <circle cx="711" cy="235" r="5"/><circle cx="832" cy="194" r="4"/><circle cx="559" cy="322" r="4"/>
+        <circle cx="649" cy="262" r="4"/><circle cx="750" cy="316" r="5"/><circle cx="849" cy="270" r="4"/>
+        <circle cx="613" cy="430" r="4"/><circle cx="682" cy="351" r="4"/><circle cx="789" cy="405" r="5"/>
+        <circle cx="870" cy="344" r="4"/>
+      </g>
+      <circle cx="711" cy="235" r="5" fill="#ff6533"/>
+      <g font-family="'Noto Sans JP','Yu Gothic',Meiryo,Arial,sans-serif">
+        <text x="70" y="104" fill="#ffffff" font-size="46" font-weight="900" letter-spacing="-2">PECO<tspan fill="#ff6533">&amp;</tspan>KB</text>
+        <text x="72" y="139" fill="#aab7ca" font-size="13" font-weight="700" letter-spacing="3.4">AI DEVELOPMENT COMPANY</text>
+        <rect x="70" y="221" width="52" height="5" rx="2.5" fill="#ff6533"/>
+        <text x="70" y="294" fill="#ffffff" font-size="46" font-weight="800" letter-spacing="-1.5">AIを現場の力に</text>
+        <text x="72" y="438" fill="#c2ccda" font-size="15" font-weight="700" letter-spacing="1.6">AI DEVELOPMENT  /  BUSINESS SYSTEMS  /  OWN PRODUCTS</text>
+        <text x="72" y="481" fill="#ffffff" fill-opacity="0.62" font-size="14" font-weight="600">株式会社Peco&amp;Kb</text>
+      </g>
+      <rect x="70" y="510" width="770" height="1" fill="#ffffff" fill-opacity="0.18"/>
+      <rect x="840" y="510" width="28" height="5" rx="2.5" fill="#ff6533"/>
+    </g>
+  </g>
+
+  <text x="920" y="95" fill="#647084" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">FRONT</text>
+
+  <g transform="translate(0,478) scale(0.61)" filter="url(#shadow)">
+    <rect x="190" y="145" width="1220" height="738" rx="18" fill="#ffffff"/>
+    <g transform="translate(190 145) scale(1.340659 1.341818)">
+      <rect x="0" width="12" height="550" fill="#ff6533"/>
+      <path d="M910 0H610c76 52 139 125 185 218 45 90 83 178 115 267Z" fill="url(#backCorner)"/>
+      <rect x="647" y="54" width="5" height="88" rx="2.5" fill="#ff6533"/>
+      <image href="../../img/KB.jpg" x="655" y="38" width="205" height="330"
+        preserveAspectRatio="xMidYMin slice" clip-path="url(#previewPhotoClip)" filter="url(#previewMonoPhoto)"/>
+      <rect x="655" y="38" width="205" height="292" rx="12" fill="none" stroke="#07101f" stroke-opacity="0.1"/>
+      <g font-family="'Noto Sans JP','Yu Gothic',Meiryo,Arial,sans-serif">
+        <text x="64" y="82" fill="#07101f" font-size="30" font-weight="900" letter-spacing="-1">PECO<tspan fill="#ff6533">&amp;</tspan>KB</text>
+        <text x="66" y="112" fill="#647084" font-size="12" font-weight="700" letter-spacing="2.5">AI DEVELOPMENT COMPANY</text>
+        <text x="64" y="190" fill="#ff6533" font-size="14" font-weight="800" letter-spacing="1.5">代表取締役  /  BUSINESS &amp; FIELD</text>
+        <text x="62" y="256" fill="#07101f" font-size="47" font-weight="800" letter-spacing="4">辻村 圭美</text>
+        <text x="65" y="290" fill="#647084" font-size="16" font-weight="700" letter-spacing="1.4">YOSHIMI TSUJIMURA</text>
+        <rect x="64" y="336" width="782" height="1.5" fill="#07101f" fill-opacity="0.12"/>
+        <text x="65" y="391" fill="#143c73" font-size="12" font-weight="900" letter-spacing="1.6">OFFICE</text>
+        <text x="65" y="425" fill="#526073" font-size="17" font-weight="650">静岡県浜松市中央区志都呂町1690番地の1</text>
+        <text x="65" y="462" fill="#526073" font-size="15" font-weight="650">法人番号  5080401028479</text>
+        <text x="648" y="391" fill="#143c73" font-size="12" font-weight="900" letter-spacing="1.6">EXPERTISE</text>
+        <text x="648" y="425" fill="#526073" font-size="14" font-weight="700">AI Development</text>
+        <text x="648" y="451" fill="#526073" font-size="14" font-weight="700">Business Systems</text>
+        <text x="648" y="477" fill="#526073" font-size="14" font-weight="700">Own Products</text>
+      </g>
+      <rect x="64" y="510" width="782" height="1" fill="#07101f" fill-opacity="0.1"/>
+      <circle cx="832" cy="510" r="5" fill="#ff6533"/>
+    </g>
+  </g>
+
+  <text x="920" y="591" fill="#647084" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">BACK</text>
+  <text x="190" y="1065" fill="#647084" font-family="'Noto Sans JP','Yu Gothic',Meiryo,Arial,sans-serif" font-size="16">91 × 55 mm / Navy · White · Orange / Peco&amp;Kb brand system</text>
+</svg>

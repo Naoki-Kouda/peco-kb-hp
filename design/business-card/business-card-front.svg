@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="55mm" viewBox="0 0 910 550" role="img" aria-labelledby="title desc">
+  <title id="title">株式会社Peco&amp;Kb 名刺 表面</title>
+  <desc id="desc">濃紺を基調にオレンジをアクセントにしたAI開発会社の名刺</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07101f"/>
+      <stop offset="0.58" stop-color="#101a33"/>
+      <stop offset="1" stop-color="#143c73"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.3" r="0.72">
+      <stop offset="0" stop-color="#ff6533" stop-opacity="0.24"/>
+      <stop offset="0.42" stop-color="#347df4" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#07101f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <rect width="910" height="550" fill="url(#bg)"/>
+  <rect width="910" height="550" fill="url(#glow)"/>
+
+  <g fill="none" stroke="#7ea8dc" stroke-opacity="0.15" stroke-width="1.5">
+    <path d="M536 88 635 145 719 82 818 158"/>
+    <path d="M514 210 617 171 711 235 832 194"/>
+    <path d="M559 322 649 262 750 316 849 270"/>
+    <path d="M613 430 682 351 789 405 870 344"/>
+    <path d="M635 145 617 171 649 262 559 322"/>
+    <path d="M719 82 711 235 750 316 682 351"/>
+    <path d="M818 158 832 194 849 270 789 405"/>
+  </g>
+
+  <g fill="#7ea8dc" fill-opacity="0.34">
+    <circle cx="536" cy="88" r="4"/>
+    <circle cx="635" cy="145" r="5"/>
+    <circle cx="719" cy="82" r="4"/>
+    <circle cx="818" cy="158" r="5"/>
+    <circle cx="514" cy="210" r="4"/>
+    <circle cx="617" cy="171" r="4"/>
+    <circle cx="711" cy="235" r="5"/>
+    <circle cx="832" cy="194" r="4"/>
+    <circle cx="559" cy="322" r="4"/>
+    <circle cx="649" cy="262" r="4"/>
+    <circle cx="750" cy="316" r="5"/>
+    <circle cx="849" cy="270" r="4"/>
+    <circle cx="613" cy="430" r="4"/>
+    <circle cx="682" cy="351" r="4"/>
+    <circle cx="789" cy="405" r="5"/>
+    <circle cx="870" cy="344" r="4"/>
+  </g>
+
+  <circle cx="711" cy="235" r="23" fill="#ff6533" fill-opacity="0.14" filter="url(#softGlow)"/>
+  <circle cx="711" cy="235" r="5" fill="#ff6533"/>
+
+  <g font-family="'Noto Sans JP','Yu Gothic',Meiryo,Arial,sans-serif">
+    <text x="70" y="104" fill="#ffffff" font-size="46" font-weight="900" letter-spacing="-2">
+      PECO<tspan fill="#ff6533">&amp;</tspan>KB
+    </text>
+    <text x="72" y="139" fill="#aab7ca" font-size="13" font-weight="700" letter-spacing="3.4">AI DEVELOPMENT COMPANY</text>
+
+    <rect x="70" y="221" width="52" height="5" rx="2.5" fill="#ff6533"/>
+    <text x="70" y="294" fill="#ffffff" font-size="46" font-weight="800" letter-spacing="-1.5">AIを現場の力に</text>
+
+    <text x="72" y="438" fill="#c2ccda" font-size="15" font-weight="700" letter-spacing="1.6">AI DEVELOPMENT  /  BUSINESS SYSTEMS  /  OWN PRODUCTS</text>
+    <text x="72" y="481" fill="#ffffff" fill-opacity="0.62" font-size="14" font-weight="600">株式会社Peco&amp;Kb</text>
+  </g>
+
+  <rect x="70" y="510" width="770" height="1" fill="#ffffff" fill-opacity="0.18"/>
+  <rect x="840" y="510" width="28" height="5" rx="2.5" fill="#ff6533"/>
+</svg>

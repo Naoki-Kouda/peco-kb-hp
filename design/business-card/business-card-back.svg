@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="55mm" viewBox="0 0 910 550" role="img" aria-labelledby="title desc">
+  <title id="title">株式会社Peco&amp;Kb 名刺 裏面</title>
+  <desc id="desc">代表取締役 辻村圭美の情報を掲載した白地の名刺</desc>
+  <defs>
+    <linearGradient id="corner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#143c73" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#143c73" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="photoClip">
+      <rect x="655" y="38" width="205" height="292" rx="12"/>
+    </clipPath>
+    <filter id="monoPhoto" color-interpolation-filters="sRGB">
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1.08" intercept="-0.03"/>
+        <feFuncG type="linear" slope="1.08" intercept="-0.03"/>
+        <feFuncB type="linear" slope="1.08" intercept="-0.03"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="910" height="550" fill="#ffffff"/>
+  <rect x="0" width="12" height="550" fill="#ff6533"/>
+  <path d="M910 0H610c76 52 139 125 185 218 45 90 83 178 115 267Z" fill="url(#corner)"/>
+
+  <rect x="647" y="54" width="5" height="88" rx="2.5" fill="#ff6533"/>
+  <image href="../../img/KB.jpg" x="655" y="38" width="205" height="330"
+    preserveAspectRatio="xMidYMin slice" clip-path="url(#photoClip)" filter="url(#monoPhoto)"/>
+  <rect x="655" y="38" width="205" height="292" rx="12" fill="none" stroke="#07101f" stroke-opacity="0.1"/>
+
+  <g font-family="'Noto Sans JP','Yu Gothic',Meiryo,Arial,sans-serif">
+    <text x="64" y="82" fill="#07101f" font-size="30" font-weight="900" letter-spacing="-1">
+      PECO<tspan fill="#ff6533">&amp;</tspan>KB
+    </text>
+    <text x="66" y="112" fill="#647084" font-size="12" font-weight="700" letter-spacing="2.5">AI DEVELOPMENT COMPANY</text>
+
+    <text x="64" y="190" fill="#ff6533" font-size="14" font-weight="800" letter-spacing="1.5">代表取締役  /  BUSINESS &amp; FIELD</text>
+    <text x="62" y="256" fill="#07101f" font-size="47" font-weight="800" letter-spacing="4">辻村 圭美</text>
+    <text x="65" y="290" fill="#647084" font-size="16" font-weight="700" letter-spacing="1.4">YOSHIMI TSUJIMURA</text>
+
+    <rect x="64" y="336" width="782" height="1.5" fill="#07101f" fill-opacity="0.12"/>
+
+    <text x="65" y="391" fill="#143c73" font-size="12" font-weight="900" letter-spacing="1.6">OFFICE</text>
+    <text x="65" y="425" fill="#526073" font-size="17" font-weight="650">静岡県浜松市中央区志都呂町1690番地の1</text>
+    <text x="65" y="462" fill="#526073" font-size="15" font-weight="650">法人番号  5080401028479</text>
+
+    <text x="648" y="391" fill="#143c73" font-size="12" font-weight="900" letter-spacing="1.6">EXPERTISE</text>
+    <text x="648" y="425" fill="#526073" font-size="14" font-weight="700">AI Development</text>
+    <text x="648" y="451" fill="#526073" font-size="14" font-weight="700">Business Systems</text>
+    <text x="648" y="477" fill="#526073" font-size="14" font-weight="700">Own Products</text>
+
+  </g>
+
+  <rect x="64" y="510" width="782" height="1" fill="#07101f" fill-opacity="0.1"/>
+  <circle cx="832" cy="510" r="5" fill="#ff6533"/>
+</svg>
